@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, Papel o Tijeras</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <h1>Piedra, Papel o Tijeras</h1>
+    <div class="game">
+        <button onclick="selectChoice('piedra')">
+          <img src="piedra.jpg" alt="roca"></button>
+        <button onclick="selectChoice('papel')">
+          <img src="papel.jpg" alt="papel"></button>
+        <button onclick="selectChoice('tijeras')">
+          <img src="tijeras.png" alt="tijeras"></button>
+    
+</div>
+<div id="result"></div>
+<!-- Imágenes de resultado -->
+<img id="winImage" src="ganador.jpg" alt="Ganaste" style="display: none;">
+<img id="loseImage" src="loser.png" alt="Perdiste" style="display: none;">
+<img id="drawImage" src="empate.jpg" alt="Empate" style="display: none;">
+
+
+               
+
+  <script src="script.js"></script>
+
+</body>
+</html>
